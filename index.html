@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Artista — Sitio Oficial</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DM+Sans:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- ============================= -->
+  <!--  ANNOUNCEMENT BAR             -->
+  <!-- ============================= -->
+  <div class="announcement-bar">
+    Envío Gratis a Todo el Mundo — Nueva Colección Disponible Ahora
+  </div>
+
+  <!-- ============================= -->
+  <!--  NAVIGATION                   -->
+  <!-- ============================= -->
+  <header>
+    <nav class="nav">
+      <!-- Logo -->
+      <a href="#" class="nav__logo">dioses del ritmo</a>
+
+      <!-- Main links -->
+      <ul class="nav__links">
+        <li><a href="#">Shows</a></li>
+
+        <li><a href="shop.html">Tienda</a></li>
+
+        <li><a href="#">Música</a></li>
+        <li><a href="#">Noticias</a></li>
+        <li><a href="#">Comunidad</a></li>
+        <li><a href="#">Fundación</a></li>
+      </ul>
+
+      <!-- Social links (visible on desktop) -->
+      <ul class="nav__social">
+        <li><a href="#">IG</a></li>
+        <li><a href="#">FB</a></li>
+        <li><a href="#">YT</a></li>
+        <li><a href="#">TT</a></li>
+      </ul>
+
+      <!-- Actions -->
+      <div class="nav__actions">
+        <a href="#">Iniciar Sesión</a>
+        <a href="#">🔍</a>
+        <button class="nav__cart-btn">Carrito (0)</button>
+        <button class="nav__hamburger" aria-label="Open menu">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+
+    <!-- ============================= -->
+    <!--  HERO BANNER                  -->
+    <!-- ============================= -->
+    <section class="hero">
+      <!-- Replace with <img src="hero-desktop.jpg" class="hero__image" alt="Hero"> -->
+      <div class="hero__image ph" style="width:100%;height:100%;"></div>
+      <div class="hero__overlay">
+        <h1 class="hero__title">Nuevo Sencillo<br>Ya Disponible</h1>
+        <a href="#" class="hero__cta">Escuchar Ahora</a>
+      </div>
+    </section>
+
+    <!-- ============================= -->
+    <!--  FEATURED PRODUCTS            -->
+    <!-- ============================= -->
+    <section class="section">
+      <div class="section__header">
+        <h2 class="section__title">Nuevos Lanzamientos</h2>
+        <a href="#" class="section__view-all">Ver Todo</a>
+      </div>
+
+      <div class="product-grid">
+
+        <!-- Product Card 1 -->
+        <div class="product-card">
+          <div class="product-card__images">
+            <div class="product-card__img product-card__img--front ph" style="height:100%;position:absolute;inset:0;"></div>
+            <div class="product-card__img product-card__img--back ph" style="height:100%;background:#2a2a2a;"></div>
+            <!-- Replace divs with:
+              <img src="product-front.jpg" class="product-card__img product-card__img--front" alt="">
+              <img src="product-back.jpg"  class="product-card__img product-card__img--back"  alt="">
+            -->
+            <button class="product-card__quick">Vista Rápida</button>
+          </div>
+          <div class="product-card__info">
+            <p class="product-card__name">Nombre del Producto — Negro</p>
+            <p class="product-card__price">$70 USD</p>
+          </div>
+        </div>
+
+        <!-- Producto 2 -->
+        <div class="product-card">
+          <div class="product-card__images">
+            <div class="product-card__img product-card__img--front ph" style="height:100%;position:absolute;inset:0;background:#1e1e1e;"></div>
+            <div class="product-card__img product-card__img--back ph" style="height:100%;background:#2e2e2e;"></div>
+            <button class="product-card__quick">Vista Rápida</button>
+          </div>
+          <div class="product-card__info">
+            <p class="product-card__name">Camiseta Gráfica — Marfil</p>
+            <p class="product-card__price">$70 USD</p>
+          </div>
+        </div>
+
+        <!-- Producto 3 -->
+        <div class="product-card">
+          <div class="product-card__images">
+            <div class="product-card__img product-card__img--front ph" style="height:100%;position:absolute;inset:0;background:#171717;"></div>
+            <div class="product-card__img product-card__img--back ph" style="height:100%;background:#272727;"></div>
+            <button class="product-card__quick">Vista Rápida</button>
+          </div>
+          <div class="product-card__info">
+            <p class="product-card__name">Camiseta Logo — Marfil</p>
+            <p class="product-card__price">$70 USD</p>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ============================= -->
+    <!--  VIDEO SECTION                -->
+    <!-- ============================= -->
+    <section class="section section--tight" style="padding-top:0;">
+      <div class="section__header">
+        <h2 class="section__title">Videos Musicales</h2>
+      </div>
+
+      <div class="video-grid">
+
+        <div class="video-card">
+          <div class="video-card__thumbnail ph" style="width:100%;height:100%;position:absolute;inset:0;"></div>
+          <div class="video-card__overlay">
+            <div class="video-card__play"></div>
+          </div>
+          <span class="video-card__title">Título del Video</span>
+        </div>
+
+        <div class="video-card">
+          <div class="video-card__thumbnail ph" style="width:100%;height:100%;position:absolute;inset:0;background:#1a1a1a;"></div>
+          <div class="video-card__overlay">
+            <div class="video-card__play"></div>
+          </div>
+          <span class="video-card__title">Título del Video 2</span>
+        </div>
+
+        <div class="video-card">
+          <div class="video-card__thumbnail ph" style="width:100%;height:100%;position:absolute;inset:0;background:#141414;"></div>
+          <div class="video-card__overlay">
+            <div class="video-card__play"></div>
+          </div>
+          <span class="video-card__title">Título del Video 3</span>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ============================= -->
+    <!--  TOUR / SHOWS BANNER          -->
+    <!-- ============================= -->
+    <section style="padding: 0 48px 80px;">
+      <div class="tour-banner">
+        <!-- Replace with <img src="tour-banner.jpg" class="tour-banner__image" alt="Tour Banner"> -->
+        <div class="tour-banner__image ph" style="width:100%;height:100%;"></div>
+        <div class="tour-banner__overlay">
+          <div class="tour-banner__content">
+            <p class="tour-banner__label">Gira Mundial 2025 — 2026</p>
+            <h2 class="tour-banner__title">Gira de<br>Estadios</h2>
+            <a href="#" class="tour-banner__cta">Comprar Entradas</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================= -->
+    <!--  MUSIC / DISCOGRAPHY          -->
+    <!-- ============================= -->
+    <section class="section" style="padding-top:0;">
+      <div class="section__header">
+        <h2 class="section__title">Descubre la Música</h2>
+        <a href="#" class="section__view-all">Ver Todo</a>
+      </div>
+
+      <div class="album-grid">
+
+        <div class="album-card">
+          <div class="album-card__cover">
+            <div class="ph" style="width:100%;height:100%;position:absolute;inset:0;"></div>
+            <div class="album-card__overlay">
+              <span class="album-card__listen">Escuchar Ahora</span>
+            </div>
+          </div>
+          <div class="album-card__info">
+            <p class="album-card__title">Título del Álbum</p>
+            <p class="album-card__year">2025</p>
+          </div>
+        </div>
+
+        <div class="album-card">
+          <div class="album-card__cover">
+            <div class="ph" style="width:100%;height:100%;position:absolute;inset:0;background:#1a1a1a;"></div>
+            <div class="album-card__overlay">
+              <span class="album-card__listen">Escuchar Ahora</span>
+            </div>
+          </div>
+          <div class="album-card__info">
+            <p class="album-card__title">Título del Álbum 2</p>
+            <p class="album-card__year">2024</p>
+          </div>
+        </div>
+
+        <div class="album-card">
+          <div class="album-card__cover">
+            <div class="ph" style="width:100%;height:100%;position:absolute;inset:0;background:#141414;"></div>
+            <div class="album-card__overlay">
+              <span class="album-card__listen">Escuchar Ahora</span>
+            </div>
+          </div>
+          <div class="album-card__info">
+            <p class="album-card__title">Título del Álbum 3</p>
+            <p class="album-card__year">2021</p>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ============================= -->
+    <!--  NEWS / BLOG                  -->
+    <!-- ============================= -->
+    <section class="section" style="padding-top:0;">
+      <div class="section__header">
+        <h2 class="section__title">Noticias</h2>
+        <a href="#" class="section__view-all">Todas las Noticias</a>
+      </div>
+
+      <div class="news-grid">
+
+        <article class="news-card">
+          <div class="news-card__image">
+            <div class="ph" style="width:100%;height:100%;position:absolute;inset:0;"></div>
+          </div>
+          <div class="news-card__info">
+            <p class="news-card__date">23 Ene, 2026</p>
+            <h3 class="news-card__title">Nominaciones a los Premios de la Temporada</h3>
+            <p class="news-card__excerpt">El nuevo año comienza con grandes noticias — múltiples nominaciones en los premios más importantes...</p>
+          </div>
+        </article>
+
+        <article class="news-card">
+          <div class="news-card__image">
+            <div class="ph" style="width:100%;height:100%;position:absolute;inset:0;background:#1a1a1a;"></div>
+          </div>
+          <div class="news-card__info">
+            <p class="news-card__date">23 Dic, 2025</p>
+            <h3 class="news-card__title">Resumen de Visita Internacional</h3>
+            <p class="news-card__excerpt">Cada visita deja una huella imborrable. Un nuevo capítulo, pero siempre la misma energía poderosa...</p>
+          </div>
+        </article>
+
+        <article class="news-card">
+          <div class="news-card__image">
+            <div class="ph" style="width:100%;height:100%;position:absolute;inset:0;background:#141414;"></div>
+          </div>
+          <div class="news-card__info">
+            <p class="news-card__date">19 Dic, 2025</p>
+            <h3 class="news-card__title">Fechas de la Gira de Estadios Reveladas</h3>
+            <p class="news-card__excerpt">Se anunció la gira de estadios — las ciudades ya están confirmadas y la preventa comienza pronto...</p>
+          </div>
+        </article>
+
+      </div>
+    </section>
+
+    <!-- ============================= -->
+    <!--  NEWSLETTER                   -->
+    <!-- ============================= -->
+    <div class="newsletter">
+      <h2 class="newsletter__title">Mantente Informado</h2>
+      <p class="newsletter__sub">Recibe los últimos lanzamientos, noticias y contenido exclusivo</p>
+      <form class="newsletter__form" onsubmit="return false;">
+        <input class="newsletter__input" type="email" placeholder="Ingresa tu correo electrónico" />
+        <button class="newsletter__btn" type="submit">Suscribirse →</button>
+      </form>
+    </div>
+
+  </main>
+
+  <!-- ============================= -->
+  <!--  FOOTER                       -->
+  <!-- ============================= -->
+  <footer class="footer">
+    <div class="footer__top">
+
+      <!-- Columna marca -->
+      <div>
+        <div class="footer__logo">ARTISTA</div>
+        <div class="footer__social">
+          <a href="#">Instagram</a>
+          <a href="#">Facebook</a>
+          <a href="#">YouTube</a>
+          <a href="#">X</a>
+          <a href="#">TikTok</a>
+          <a href="#">Snapchat</a>
+        </div>
+      </div>
+
+      <!-- Columna Políticas -->
+      <div class="footer__col">
+        <h5>Políticas</h5>
+        <ul>
+          <li><a href="#">Política de Privacidad</a></li>
+          <li><a href="#">Devoluciones y Reembolsos</a></li>
+          <li><a href="#">Envío Gratis</a></li>
+          <li><a href="#">Términos de Servicio</a></li>
+          <li><a href="#">Política de Envío</a></li>
+        </ul>
+      </div>
+
+      <!-- Columna Preguntas Frecuentes -->
+      <div class="footer__col">
+        <h5>Preguntas Frecuentes</h5>
+        <ul>
+          <li><a href="#">Info del Pedido</a></li>
+          <li><a href="#">Cambios y Devoluciones</a></li>
+          <li><a href="#">Fundación</a></li>
+        </ul>
+      </div>
+
+      <!-- Columna Contacto -->
+      <div class="footer__col">
+        <h5>Contacto</h5>
+        <ul>
+          <li><a href="#">Contáctanos</a></li>
+          <li><a href="#">Tienda EE.UU.</a></li>
+          <li><a href="#">Tienda Colombia</a></li>
+          <li><a href="#">Tienda México</a></li>
+        </ul>
+      </div>
+
+    </div>
+
+    <div class="footer__bottom">
+      <p class="footer__copy">© 2026 Nombre del Artista. Todos los derechos reservados.</p>
+
+      <div class="footer__payments">
+        <span class="footer__payment-icon">Visa</span>
+        <span class="footer__payment-icon">Mastercard</span>
+        <span class="footer__payment-icon">Amex</span>
+        <span class="footer__payment-icon">Apple Pay</span>
+        <span class="footer__payment-icon">Google Pay</span>
+        <span class="footer__payment-icon">Shop Pay</span>
+        <span class="footer__payment-icon">Discover</span>
+      </div>
+
+      <select class="footer__lang" aria-label="Idioma">
+        <option>Español</option>
+        <option>English</option>
+      </select>
+    </div>
+  </footer>
+
+  <!-- ============================= -->
+  <!--  SIMPLE MOBILE MENU TOGGLE    -->
+  <!-- ============================= -->
+  <script>
+    const hamburger = document.querySelector('.nav__hamburger');
+    const navLinks  = document.querySelector('.nav__links');
+    hamburger.addEventListener('click', () => {
+      navLinks.style.display = navLinks.style.display === 'flex' ? 'none' : 'flex';
+      navLinks.style.flexDirection = 'column';
+      navLinks.style.position = 'absolute';
+      navLinks.style.top = '64px';
+      navLinks.style.left = '0';
+      navLinks.style.right = '0';
+      navLinks.style.background = '#0a0a0a';
+      navLinks.style.padding = '20px 24px';
+      navLinks.style.borderBottom = '1px solid #333';
+      navLinks.style.zIndex = '999';
+    });
+  </script>
+
+</body>
+</html>
